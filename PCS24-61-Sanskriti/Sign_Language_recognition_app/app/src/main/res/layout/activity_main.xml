@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundimg"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Language"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        android:textColor=" #ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+
+
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recognition App"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="0dp"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/camera_button"
+        android:text="Real-time Recognition"
+        android:textAllCaps="false"
+        android:background="#800080"
+        android:layout_marginTop="70dp"
+        android:textColor="#FFFFFF"
+
+    />
+
+    <Button
+        android:id="@+id/combine_letter_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#800080"
+        android:text="Combine Letter"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="0dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="420dp"
+        android:layout_height="382dp"
+        app:srcCompat="@drawable/handgesture" />
+
+
+</LinearLayout>
